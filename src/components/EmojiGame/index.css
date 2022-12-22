@@ -1,0 +1,23 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+}
+
+.app-container {
+  background-image: linear-gradient(to right, #6a59ff, #fbc7d4);
+}
+
+.emoji-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emojis-container {
+  margin: 20px;
+  display: flex;
+
+  flex-wrap: wrap;
+  width: 450px;
+}
